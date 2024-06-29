@@ -10,6 +10,7 @@ const UserPage = async() => {
   const users = await fetchUsers();
 
   return (
+    
   <div className={styles.container}>
   <div className={styles.top}>
   <Link href="/dashboard/users/add">
